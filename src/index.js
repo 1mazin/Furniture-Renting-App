@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 var cors = require('cors');
-const stripe = require('stripe')('##yourstripesecretkey##');
+const stripe = require('stripe')('sk_test_51MedPjSEnjL1fvYCaXCO6U2vUejoqpmSwVadaskW9bscn02OxRgB5eeZAlyvL3glQ9aMP0zkoYexKoCepOtH1K4M00YgLBrYBQ');
  
 const app = express();
 app.use(cors());
